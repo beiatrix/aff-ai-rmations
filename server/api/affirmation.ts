@@ -63,8 +63,8 @@ export default defineEventHandler(async (event) => {
 
     return cache.affirmation
   } catch (error) {
-    console.log('OpenAI API error:', error)
-    return { error: "Something went wrong :( Please try again later." }
+    console.log('Gemini API error:', error)
+    return 'Something went wrong :( Please try again later.'
   }
 })
 

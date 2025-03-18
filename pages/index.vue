@@ -36,7 +36,12 @@ const today = computed(() => {
 
 <template>
   <div class="h-screen bg-night flex justify-center content-center">
-    <div v-if="loading">Loading...</div>
+    <div
+      v-if="loading"
+      class="content-center"
+    >
+      <Loader />
+    </div>
     <div
       v-else
       class="w-5/6 content-center text-moonlight"
