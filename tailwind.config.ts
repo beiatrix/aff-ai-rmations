@@ -4,7 +4,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
-        night: '#12062b',
+        night: '#16062b',
         moonlight: '#e9e9f7'
       }
     },

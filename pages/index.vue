@@ -41,11 +41,11 @@ const today = computed(() => {
       v-else
       class="w-5/6 content-center text-moonlight"
     >
-      <p class="font-serif font-bold text-lg pb-6">
+      <p class="font-serif font-bold opacity-70 text-base md:text-lg pb-6">
         {{ today }}
       </p>
 
-      <div class="font-sans leading-tight text-5xl relative inline-block font-bold">
+      <div class="font-sans leading-relaxed md:leading-normal lg:leading-snug text-2xl md:text-4xl lg:text-5xl relative inline-block font-bold">
         <span class="absolute inset-0 bg-gradient-to-br from-pink-400 to-green-200
                     bg-clip-text text-transparent opacity-0
                     transition-opacity duration-[1500ms] ease-in-out
