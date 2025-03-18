@@ -52,7 +52,7 @@ export default defineEventHandler(async (event) => {
       }
     })
 
-    const affirmation = response.candidates[0].content.parts[0].text
+    const affirmation = response.candidates[0].content.parts[0].text.replace('*', '')
 
     /**
      * store result in cache
